@@ -23,7 +23,8 @@ Cuando tengas tu entorno virtual iniciado, ejecuta el comando:
 
 #### Añadir github al nuevo proyecto
 - $ git init
-- $ $ git remote add origin https://github.com/my_usuario/mi_proyecto.git
+- $ git remote add origin https://github.com/my_usuario/mi_proyecto.git
+- $ git remote -v
 
 #### Enlades a documentación
 - [Python](https://docs.python.org/3/index.html)
