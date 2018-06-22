@@ -8,7 +8,7 @@
 
 #### Crear entorno virtual con conda
 1. ir a la carpeta de proyecto
-2. $ conda create -n myDjangoEnv django
+2. $ conda create -n myDjangoEnv django *// en caso de que no reconozca conda escribir: $ export PATH=~/anaconda3/bin:$PATH*
 
 #### Activar entorno
 - $ source activate myDjangoEnv
@@ -19,6 +19,7 @@
 #### Iniciar un proyecto en Django
 Cuando tengas tu entorno virtual iniciado, ejecuta el comando:
 - $ django-admin startproject primer_proyecto
+- $ cd primer_proyecto
 - $ python manage.py runserver
 
 #### Añadir github al nuevo proyecto
